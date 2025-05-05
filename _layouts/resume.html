@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      display: flex;
+    }
+    .sidebar {
+      width: 240px;
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      height: 100vh;
+    }
+    .sidebar h2 {
+      font-size: 20px;
+      border-bottom: 1px solid #555;
+      padding-bottom: 5px;
+    }
+    .sidebar a {
+      color: #1abc9c;
+      text-decoration: none;
+      display: block;
+      margin-top: 10px;
+    }
+    .content {
+      padding: 40px;
+      flex-grow: 1;
+    }
+    .content h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>{{ site.title }}</h2>
+    <a href="#기본-정보">기본 정보</a>
+    <a href="#기술-스택">기술 스택</a>
+    <a href="#프로젝트">프로젝트</a>
+    <a href="#교육">교육</a>
+    <a href="#자격증--수상">자격증 / 수상</a>
+  </div>
+  <div class="content">
+    {{ content }}
+  </div>
+</body>
+</html>
