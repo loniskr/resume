@@ -1,13 +1,12 @@
 title: "김민혁 이력서"
 description: "소프트웨어공학과 3학년 / 포트폴리오"
 author: "김민혁"
-email: winggur@dongyang.ac.kr
+email: your@email.com
 github_username: loniskr
 
 theme: null
 markdown: kramdown
 
-# 사용자 정의 레이아웃 사용
 defaults:
   - scope:
       path: ""
