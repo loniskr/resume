@@ -1,11 +1,15 @@
 title: "김민혁 이력서"
-description: "동양미래대학교 소프트웨어공학과 3학년 개발자 포트폴리오"
+description: "소프트웨어공학과 3학년 / 포트폴리오"
 author: "김민혁"
 email: your@email.com
 github_username: loniskr
 
-theme: jekyll-theme-slate
+theme: null
+markdown: kramdown
 
-# 옵션 (필요하면 활성화)
-# show_downloads: true
-# google_analytics: UA-XXXXXXXXX-X
+# 사용자 정의 레이아웃 사용
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: resume
