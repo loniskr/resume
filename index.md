@@ -5,7 +5,8 @@ title: 김민혁 이력서
 ## 기본 정보
 
 - 이메일: **winggur@dongyang.ac.kr**
-- Github: [loniskr](https://github.com/loniskr)
+- Github: 추후 정돈 후 첨삭 예정
+- Notion: 추후 정돈 후 첨삭 예정 
 
 ---
 
