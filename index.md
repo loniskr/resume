@@ -31,7 +31,7 @@ title: 김민혁 이력서
 - 실시간 채팅 프로젝트(C, pThread, Linux, Raspberry PI) pThread를 활용한 채팅 서버 구현 실습을 경험함
 - Raspberry PI의 Raspberry OS(Debian Linux)에서 pThread를 활용한 채팅 서버 구현
 - TCP/IP Socket Programming
----
+
 
 ## 교육
 
